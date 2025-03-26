@@ -50,3 +50,5 @@ with open(output_file_path, 'w') as file:
 
 # Print the most common words
 print("The most common words have been written to", output_file_path)
+for word, freq in common_words.items():
+    print(f"{word}: {freq}")
